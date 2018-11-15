@@ -1,0 +1,19 @@
+name: example-enviroment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - scipy
+  - obspy
+  - gdal
+  - cartopy
+  - rasterio
+  - pip:
+    - matplotlib
+    - DateTime
+    - argparse
+    - MarkDown
+    - urllib
+    - affine
