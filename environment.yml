@@ -2,6 +2,14 @@ name: example-enviroment
 channels:
   - conda-forge
 dependencies:
+  - pip:
+    - setuptools
+    - matplotlib
+    - DateTime
+    - argparse
+    - MarkDown
+    - urllib
+    - affine
   - python
   - numpy
   - pandas
@@ -10,10 +18,3 @@ dependencies:
   - gdal
   - cartopy
   - rasterio
-  - pip:
-    - matplotlib
-    - DateTime
-    - argparse
-    - MarkDown
-    - urllib
-    - affine
